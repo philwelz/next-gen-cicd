@@ -1,0 +1,22 @@
+name: Build & Publish to Registry
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "gh-runner/**"
+
+defaults:
+  run:
+    working-directory: ./
+    shell: bash
+
+jobs:
+  build:
+    name: gh-runner
+    uses: ./.github/workflows/docker-build.yaml
+    with:
+      REGISTRY: ghcr.io
+      ORGANISATION_NAME: philwelz
