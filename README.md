@@ -2,13 +2,17 @@
 
 [![Build & Publish to Registry](https://github.com/philwelz/next-gen-cicd/actions/workflows/release.yaml/badge.svg)](https://github.com/philwelz/next-gen-cicd/actions/workflows/release.yaml)
 
+## General
+
+Virtual machines are still the most common way to build and deploy applications via CI/CD. This session explores a new approach: KEDA, a cloud-native autoscaler that will drive the on-demand scaling of containerized build agents running on Azure Container Apps. By leveraging both technologies, we can build highly scalable, cost-efficient and sustainable CI/CD pipelines.
+
 ## Meetup Details
 
 - Click [here](https://www.meetup.com/de-DE/berlin-microsoft-azure-meetup/events/297657359/) to view the meetup details
 
 ## Slides
 
-- Find the slides [tbd]()
+- Find the slides [here](https://www.slideshare.net/slideshows/elevate-your-builds-nextgen-cicd-with-azure-container-apps-and-keda/265974064)
 
 ## Demo
 
@@ -128,5 +132,6 @@ ContainerAppSystemLogs_CL
 ## Useful Links
 
 - [GitHub - Autoscaling with self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/autoscaling-with-self-hosted-runners#using-ephemeral-runners-for-autoscaling)
-- [Keda GitHub runner schaler](https://keda.sh/docs/2.13/scalers/github-runner/)
+- [Tutorial: Deploy self-hosted CI/CD runners and agents with Azure Container Apps jobs](https://learn.microsoft.com/en-us/azure/container-apps/tutorial-ci-cd-runners-jobs?tabs=bash&pivots=container-apps-jobs-self-hosted-ci-cd-github-actions)
+- [Keda GitHub runner scaler](https://keda.sh/docs/2.13/scalers/github-runner/)
 - [Docker Github Actions Runner](https://github.com/myoung34/docker-github-actions-runner)
