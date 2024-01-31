@@ -14,6 +14,11 @@ Virtual machines are still the most common way to build and deploy applications 
 
 - Find the slides [here](https://www.slideshare.net/slideshows/elevate-your-builds-nextgen-cicd-with-azure-container-apps-and-keda/265974064)
 
+## Docker Images
+
+- Dockerfile for GitHub-runners is located [here](./gh-runner)
+- Dockerfile for Azure DevOps is located [here](./ado-runner)
+
 ## Demo
 
 ### Prerequisites
